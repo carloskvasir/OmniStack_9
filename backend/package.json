@@ -1,0 +1,9 @@
+{
+  "name": "backend",
+  "version": "0.0.1",
+  "description": "BackEnd da semana OmniStack 9",
+  "main": "index.js",
+  "author": "Carlos Lima (Kvasir)",
+  "license": "MZL-2.0",
+  "private": false
+}
