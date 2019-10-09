@@ -1,5 +1,15 @@
 const express = require('express');
+const mongoose = require('mongoose');
+const dotenv = require('dotenv');
+
 const routes = require('./routes');
+
+dotenv.config();
+
+mongoose.connect(`mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_SERV}/${process.env.DB_BASE}?${process.env.DB_OPTS}`, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 
 const app = express();
 
