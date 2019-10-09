@@ -4,4 +4,5 @@ Backend desenvolvido em nodeJS para servir um sistema semelhante ao Airbnb,
  que faz reservas de salas para cowork.
 
 ## Tecnologias Utilizadas
-* express@4.17.1
+* express (4.17.1)
+* nodemon (1.19.3)
