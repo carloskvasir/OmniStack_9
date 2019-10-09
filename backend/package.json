@@ -4,6 +4,9 @@
   "description": "BackEnd da semana OmniStack 9",
   "main": "index.js",
   "author": "Carlos Lima (Kvasir)",
-  "license": "MZL-2.0",
-  "private": false
+  "license": "MPL-2.0",
+  "private": false,
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
