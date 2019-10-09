@@ -62,3 +62,6 @@ typings/
 
 # Yarn lockfile
 yarn.lock
+
+# thumbnails files
+uploads/
