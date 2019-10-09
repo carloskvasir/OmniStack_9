@@ -11,5 +11,9 @@
   },
   "devDependencies": {
     "nodemon": "^1.19.3"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon"
   }
 }
