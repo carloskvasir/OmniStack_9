@@ -7,6 +7,7 @@ Backend desenvolvido em nodeJS para servir um sistema semelhante ao Airbnb,
 ### Funcionais
 * **express** (4.17.1) - Gerencia todas requisições
 * **mongoose** (5.7.3) - Facilita conexão/gerenciamento mongoDB
+* **multer** (1.4.2) - Gerencia requisiçoes com varios tipos
 * dotenv - Camada extra de segurança sobre configurações
 ### Desenvolvimento
 * nodemon - Executa comando quando arquivos são modificados
